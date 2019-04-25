@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/*header*/
+ul, .ul {
+    float: left;
+    margin: 10px;
+    margin-top: 20px;
+}
+
+ul {
+    float: right;
+    list-style-type: none;
+}
+
+li {
+    float: left;
+    margin: 10px;
+}
+
+.picture {
+    border-radius: 100%;
+    padding: 10px;
+    border-color: black;
+    background-color: green;
+    margin-top: 0px;
+}
+
+/*mid*/
+main {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    height: 250px;
+    width: 500px;
+    justify-content: center;
+}
+
+.google {
+    position: absolute;
+    right: 127px;
+    top: 0;
+}
+
+
+
+.inbox {
+    position: absolute;
+    border-radius: 40px;
+    width: 500px;
+    height: 40px;
+    top: 105px;
+    right: 0px;
+}
+
+div.button {
+    position: absolute;
+    top: 175px;
+    right: 99px;
+
+}
+
+.lucky {
+    display: inline;
+    top: 250px;
+    right: 150px;
+}
+
+div.lucky {
+    position: absolute;
+}
+
+button {
+    padding: 5px;
+    border-radius: 0;
+    margin: 10px;
+}
+
+
+/*footer*/
+footer {
+    position: absolute;
+    bottom: 0;
+}
+
+
+a:link, a:visited {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.image1 {
+    width: 10px;
+}
